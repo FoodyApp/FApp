@@ -1,0 +1,52 @@
+{
+  "name": "FApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "16.0.0-alpha.12",
+    "react-native": "0.50.4",
+    "react-native-android-permissions": "^1.0.0",
+    "react-native-check-box": "^2.1.0",
+    "react-native-collapsible": "^0.13.0",
+    "react-native-device-info": "^0.22.5",
+    "react-native-fbsdk": "^0.7.0",
+    "react-native-fit-image": "^1.5.4",
+    "react-native-flip-toggle-button": "^1.0.5",
+    "react-native-fused-location": "^0.3.1",
+    "react-native-geocoder": "^0.5.0",
+    "react-native-google-places-autocomplete": "^1.3.6",
+    "react-native-google-signin": "^0.10.0",
+    "react-native-map-clustering": "^1.3.0",
+    "react-native-maps": "^0.21.0",
+    "react-native-photo-upload": "^1.2.0",
+    "react-native-platform-stylesheet": "0.0.6",
+    "react-native-push-notification": "^3.0.2",
+    "react-native-rating": "^2.0.4",
+    "react-native-side-menu": "^1.1.3",
+    "react-native-simple-radio-button": "^2.7.1",
+    "react-native-slider": "^0.11.0",
+    "react-native-slideshow": "^1.0.1",
+    "react-native-swipeout": "^2.3.3",
+    "react-native-tabs": "^1.0.9",
+    "react-native-vector-icons": "^4.6.0",
+    "react-navigation": "^1.5.9"
+  },
+  "devDependencies": {
+    "babel-jest": "22.4.3",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.4.3",
+    "react-test-renderer": "16.3.0-alpha.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "./fonts/"
+    ]
+  }
+}
